@@ -4,6 +4,10 @@
 ### Texto h3
 `Bordinha radius fundo`
 ---
-sla
+Três tracinhos cria uma linha "<hr>"
 ---
 > Comentário
+```shell
+Códigos
+```
+[Link](#)
