@@ -14,7 +14,7 @@ Três tracinhos cria uma linha "<hr>"
 ```shell
 Códigos
 ```
-[.](https://github.com/MathLuz/TestesGit/blob/main/README.md)
+[Isso é um link](https://github.com/MathLuz/TestesGit/blob/main/README.md)
 ---
 
 ## Comandos do terminal - Git
