@@ -7,9 +7,7 @@
 ## Texto h2
 ### Texto h3
 `Bordinha radius fundo`
----
-Três tracinhos cria uma linha "<hr>"
----
+Três tracinhos cria uma linha "---"
 > Comentário
 ```shell
 Códigos
