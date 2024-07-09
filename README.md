@@ -1,4 +1,8 @@
+
 # TestesGit
+
+---
+# Formatações do markdown
 # Texto h1
 ## Texto h2
 ### Texto h3
@@ -11,9 +15,9 @@ Três tracinhos cria uma linha "<hr>"
 Códigos
 ```
 [.](https://github.com/MathLuz/TestesGit/blob/main/README.md)
+---
 
-
-## Git
+## Comandos do terminal - Git
 
 git add . / git add -A
 > Adiciona tudo pra fazer o commit
@@ -21,10 +25,10 @@ git add . / git add -A
 git commit -m "Mensagem"
 > Comita com comentário
 
-git push
+git push origin
 > Joga pro repositório
 
-git checkout branch
+git checkout [Nome da branch]
 > Muda a branch que a gente ta
 
 git remote add origin [link do repositório]
@@ -33,9 +37,13 @@ git remote add origin [link do repositório]
 git clone [link do repositório]
 > clona o repositório na pasta que tu ta no terminal
 
----
 git status
 > Ve os status do git (commit e branch)
 
 git log
 > ve os últimos commits
+
+git branch
+> visualiza a branch atual
+
+
