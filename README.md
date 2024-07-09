@@ -10,4 +10,4 @@ Três tracinhos cria uma linha "<hr>"
 ```shell
 Códigos
 ```
-[Coisa legal (link)](https://github.com/MathLuz/TestesGit/blob/main/README.md)
+(https://github.com/MathLuz/TestesGit/blob/main/README.md)
