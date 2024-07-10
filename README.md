@@ -17,31 +17,44 @@ Códigos
 
 ## Comandos do terminal - Git
 
+git init
+> Inicia um repositório Git vazio no diretório atual.
+
 git add . / git add -A
-> Adiciona tudo pra fazer o commit
+> Adiciona todas as alterações no diretório atual para o próximo commit.
 
 git commit -m "Mensagem"
-> Comita com comentário
+> Cria um commit com as mudanças adicionadas e uma mensagem.
 
 git push origin
-> Joga pro repositório
+> Envia os commits locais para o repositório remoto especificado.
+
+git pull
+> Atualiza a branch local com as mudanças do repositório remoto.
 
 git checkout [Nome da branch]
-> Muda a branch que a gente ta
+> Muda para a branch especificada.
 
 git remote add origin [link do repositório]
-> Linka com o repositório
+> Adiciona um link ao repositório remoto com o nome original.
 
 git clone [link do repositório]
-> clona o repositório na pasta que tu ta no terminal
+> Faz uma cópia de um repositório remoto para o diretório local.
 
 git status
-> Ve os status do git (commit e branch)
+> Mostra o status atual do repositório, incluindo a branch, arquivos modificados, adicionados e excluídos.
 
 git log
-> ve os últimos commits
+> Exibe o histórico de commits do repositório.
 
 git branch
-> visualiza a branch atual
+> Lista todas as branches no repositório.
 
+git branch [nome-da-branch]
+> Cria uma nova branch com o nome especificado.
 
+git merge [nome-da-branch]
+> Mescla a branch especificada com a branch atual.
+
+git diff
+> Mostra as diferenças entre os arquivos no repositório e no diretório de trabalho.
