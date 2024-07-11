@@ -71,7 +71,7 @@ git revert [id do commit]
 > Cria um novo commit que desfaz as mudanças do commit especificado.
 
 git reset --hard [id do commit anterior ao que eu quero apagar]
-> Move o ponteiro HEAD para o commit especificado e descarta todas as mudanças após esse commit.
+> Volta o histórico para o commit especificado e descarta todas as mudanças após esse commit.
 
 git reset --hard HEAD
 > Desfaz todas as mudanças não comitadas e restaura o estado do último commit.
