@@ -19,6 +19,8 @@ Códigos
 
 [Isso é um link](https://github.com/MathLuz/TestesGit/blob/main/README.md)
 
+https://wordpress.com/support/markdown-quick-reference/
+
 ---
 
 ## Comandos do terminal - Git
@@ -64,3 +66,19 @@ git merge [nome-da-branch]
 
 git diff
 > Mostra as diferenças entre os arquivos no repositório e no diretório de trabalho.
+
+git revert [id do commit]
+> Cria um novo commit que desfaz as mudanças do commit especificado.
+
+git reset --hard [id do commit anterior ao que eu quero apagar]
+> Move o ponteiro HEAD para o commit especificado e descarta todas as mudanças após esse commit.
+
+git reset --hard HEAD
+> Desfaz todas as mudanças não comitadas e restaura o estado do último commit.
+
+git commit --amend -m "Mensagem a substituir"
+> Modifica o último commit, incluindo sua mensagem.
+
+
+
+
