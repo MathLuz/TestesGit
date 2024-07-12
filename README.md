@@ -76,7 +76,7 @@ git reset --hard HEAD
 > Desfaz todas as mudanças não comitadas e restaura o estado do último commit.
 
 git commit --amend -m "Mensagem a substituir"
-> Modifica o último commit, incluindo sua mensagem.
+> Modifica a mensagem do último commit.
 
 
 
