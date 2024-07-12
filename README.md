@@ -1,7 +1,6 @@
 
 # TestesGit
 
----
 # Formatações do markdown
 # Texto h1
 ## Texto h2
