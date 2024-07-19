@@ -17,7 +17,11 @@ Códigos
 
 [Isso é um link](https://github.com/MathLuz/TestesGit/blob/main/README.md)
 
-https://wordpress.com/support/markdown-quick-reference/
+---
+
+[Funcionalidades do Markdown](https://wordpress.com/support/markdown-quick-reference/)
+
+[Para estudar branchs](https://git-school.github.io/visualizing-git/)
 
 ---
 
@@ -74,8 +78,11 @@ git branch [nome-da-branch]
 git merge [nome-da-branch]
 > Mescla a branch especificada com a branch atual.
 
-git diff
-> Mostra as diferenças entre os arquivos no repositório e no diretório de trabalho.
+git diff [Commit antigo] [Commit novo]
+> Mostra as diferenças entre os arquivos no repositório e no diretório de trabalho ou entre commit especificados.
+
+git show [Commit]
+> Mostra as diferenças entre o seu diretório local e o commit especificado
 
 git revert [id do commit]
 > Cria um novo commit que desfaz as mudanças do commit especificado.
