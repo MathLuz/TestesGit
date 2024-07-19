@@ -1,10 +1,9 @@
 
 # TestesGit
 
-# Formatações do markdown
-# Texto h1
-## Texto h2
-### Texto h3
+## Formatações do markdown
+
+# Texto h1 ## Texto h2 ### Texto h3
 
 `Bordinha radius fundo`
 
@@ -54,6 +53,18 @@ git status
 git log
 > Exibe o histórico de commits do repositório.
 
+git log --oneline
+> Mostra o log de forma resumida.
+
+git log -p
+> Mostra o log só que mais detalhado.
+
+git log --help
+> Abre a documentação do git log.
+
+git log --format="%H %an"
+> Exemplo de formato que mostra o ID do commit e nome de quem comitou.
+
 git branch
 > Lista todas as branches no repositório.
 
@@ -77,7 +88,3 @@ git reset --hard HEAD
 
 git commit --amend -m "Mensagem a substituir"
 > Modifica a mensagem do último commit.
-
-
-
-
