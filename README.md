@@ -75,6 +75,9 @@ git branch
 git branch [nome-da-branch]
 > Cria uma nova branch com o nome especificado.
 
+git rebase main
+> Adiona os commit da main na sua branch (antes da atual).
+
 git merge [nome-da-branch]
 > Mescla a branch especificada com a branch atual.
 
