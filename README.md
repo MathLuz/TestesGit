@@ -42,8 +42,14 @@ git push origin
 git pull
 > Atualiza a branch local com as mudanças do repositório remoto.
 
-git checkout [Nome da branch]
+git switch [Nome da branch]
 > Muda para a branch especificada.
+
+git switch -c [Nome da nova branch]
+> Cria e muda para a nova branch
+
+git restore [.] // para voltar a última [--source = id do commit]
+> restauda o projeto
 
 git remote add origin [link do repositório]
 > Adiciona um link ao repositório remoto com o nome original.
@@ -57,23 +63,7 @@ git status
 git log
 > Exibe o histórico de commits do repositório.
 
-git log --oneline
-> Mostra o log de forma resumida.
-
-git log -p
-> Mostra o log só que mais detalhado.
-
-git log --help
-> Abre a documentação do git log.
-
-git log --format="%H %an"
-> Exemplo de formato que mostra o ID do commit e nome de quem comitou.
-
-git branch
-> Lista todas as branches no repositório.
-
-git branch [nome-da-branch]
-> Cria uma nova branch com o nome especificado.
+[Documentação do git log](https://git-scm.com/docs/git-log/pt_BR)
 
 git rebase main
 > Adiona os commit da main na sua branch (antes da atual).
@@ -98,3 +88,15 @@ git reset --hard HEAD
 
 git commit --amend -m "Mensagem a substituir"
 > Modifica a mensagem do último commit.
+
+git stash
+> Deixa as modificações desde o último commit armazenadas.
+
+[Documentação git stash](https://git-scm.com/docs/git-stash/pt_BR)
+
+git tag [Nome da tag] [id co commit] [-m "Descrição da tag"]
+> Cria uma marcação (comum usado em versões)
+
+[Documentação git tag](https://git-scm.com/docs/git-tag/pt_BR)
+
+
